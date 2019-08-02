@@ -1,0 +1,40 @@
+body{
+  margin:0;
+  padding:0;
+  background:#fff;
+  font-family: MicrosoftYaHei;
+  overflow: auto;
+  box-sizing: border-box;
+}
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+input{
+  background:none;  
+	outline:none;  
+  border:0px;
+}
+input:focus { outline: none; }
+.clearfix:before,.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
+/* 若需要字体根据dpr进行不同的设置，则需要下面这么写(前提是vue.config.js里面开启font不转化为rem) */
+/* .selector {
+  color: red;
+  font-size: 24px;
+} */
+/* [data-dpr="2"] .selector {
+  font-size: 24px;
+}
+[data-dpr="3"] .selector {
+  font-size: 36px;
+} */
+
+
